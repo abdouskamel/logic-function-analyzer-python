@@ -13,3 +13,23 @@ Examples:
 ```python main.py "/A + B"```
 
 ```python main.py "A + /B.C + C"```
+
+Output for `A + /B.C + C`:
+
+```
+['A', 'B', 'C']
+[0, 0, 0, 0]
+[0, 0, 1, 1]
+[0, 1, 0, 0]
+[0, 1, 1, 1]
+[1, 0, 0, 1]
+[1, 0, 1, 1]
+[1, 1, 0, 1]
+[1, 1, 1, 1]
+
+Disjunctive Normal Form (DNF) : 
+ /A./B.C + /A.B.C + A./B./C + A./B.C + A.B./C + A.B.C
+
+Simplified form : 
+ C + A
+```
