@@ -131,7 +131,7 @@ def remove_redundant_brackets(tokens):
         i = 1
         brackets = 0
 
-        while i < len(tokens):
+        while i < len(tokens) - 1:
             if tokens[i] == "(":
                 brackets += 1
 

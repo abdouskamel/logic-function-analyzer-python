@@ -14,7 +14,9 @@ Examples:
 
 ```python main.py "A + /B.C + C"```
 
-Output for `A + /B.C + C`:
+## Output 
+
+Example output for `A + /B.C + C`:
 
 ```
 ['A', 'B', 'C']
