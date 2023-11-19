@@ -14,6 +14,8 @@ Examples:
 
 ```python main.py "A + /B.C + C"```
 
+```python main.py "A + B.(C @ A)"```
+
 ## Output 
 
 Example output for `A + /B.C + C`:
